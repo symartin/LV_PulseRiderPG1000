@@ -6,9 +6,9 @@
 		<Property Name="CCSymbols" Type="Str">OS,Win;CPU,x86;</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Pulse Rider PG-1000.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Pulse Rider PG-1000.lvlib"/>
-		<Item Name="Simple pulse sweep.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Examples/Simple pulse sweep.vi"/>
-		<Item Name="VI Tree.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/VI Tree.vi"/>
+		<Item Name="Pulse Rider PG-1000.lvlib" Type="Library" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Pulse Rider PG-1000.lvlib"/>
+		<Item Name="Simple pulse sweep.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Examples/Simple pulse sweep.vi"/>
+		<Item Name="VI Tree.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/VI Tree.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>

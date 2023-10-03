@@ -17,80 +17,79 @@ Architecture provides the possibility to generate advanced pulse sequences, such
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Default Instrument Setup.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Private/Default Instrument Setup.vi"/>
+		<Item Name="Default Instrument Setup.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Private/Default Instrument Setup.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Action-Status" Type="Folder">
 			<Item Name="Low Level" Type="Folder">
-				<Item Name="Send Software Trigger.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Action-Status/Low Level/Send Software Trigger.vi"/>
+				<Item Name="Send Software Trigger.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Action-Status/Low Level/Send Software Trigger.vi"/>
 			</Item>
-			<Item Name="Send Trigger Disarm.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Action-Status/Send Trigger Disarm.vi"/>
-			<Item Name="Send Trigger Arm.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Action-Status/Send Trigger Arm.vi"/>
-			<Item Name="Enable Output.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Action-Status/Enable Output.vi"/>
+			<Item Name="Send Trigger Disarm.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Action-Status/Send Trigger Disarm.vi"/>
+			<Item Name="Send Trigger Arm.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Action-Status/Send Trigger Arm.vi"/>
+			<Item Name="Enable Output.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Action-Status/Enable Output.vi"/>
 		</Item>
 		<Item Name="Configure" Type="Folder">
 			<Item Name="Trigger" Type="Folder">
-				<Item Name="Configure Trigger Out Amplitude.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Trigger/Configure Trigger Out Amplitude.vi"/>
-				<Item Name="Query Trigger Out Amplitude.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Trigger/Query Trigger Out Amplitude.vi"/>
-				<Item Name="Configure Trigger Out Polarity.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Trigger/Configure Trigger Out Polarity.vi"/>
-				<Item Name="Configure Trigger Threshold.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Trigger/Configure Trigger Threshold.vi"/>
-				<Item Name="Query Trigger Threshold.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Trigger/Query Trigger Threshold.vi"/>
-				<Item Name="Configure Trigger.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Trigger/Configure Trigger.vi"/>
-				<Item Name="Configure Trigger Delay.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Trigger/Configure Trigger Delay.vi"/>
-				<Item Name="Configure Trigger Impedance.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Trigger/Configure Trigger Impedance.vi"/>
-				<Item Name="Query Trigger Impedance.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Trigger/Query Trigger Impedance.vi"/>
-				<Item Name="Configure Trigger Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Trigger/Configure Trigger Mode.vi"/>
-				<Item Name="Query Trigger Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Trigger/Query Trigger Mode.vi"/>
-				<Item Name="Configure Trigger Source.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Configure Trigger Source.vi"/>
-				<Item Name="Query Trigger Source.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Query Trigger Source.vi"/>
-				<Item Name="Query Trigger Delay.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Trigger/Query Trigger Delay.vi"/>
-				<Item Name="Query Trigger Out Polarity.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Trigger/Query Trigger Out Polarity.vi"/>
-				<Item Name="Trigger Source.ctl" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Trigger/Trigger Source.ctl"/>
-				<Item Name="Trigger Mode.ctl" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Trigger/Trigger Mode.ctl"/>
+				<Item Name="Configure Trigger Out Amplitude.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Trigger/Configure Trigger Out Amplitude.vi"/>
+				<Item Name="Query Trigger Out Amplitude.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Trigger/Query Trigger Out Amplitude.vi"/>
+				<Item Name="Configure Trigger Out Polarity.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Trigger/Configure Trigger Out Polarity.vi"/>
+				<Item Name="Configure Trigger Threshold.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Trigger/Configure Trigger Threshold.vi"/>
+				<Item Name="Query Trigger Threshold.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Trigger/Query Trigger Threshold.vi"/>
+				<Item Name="Configure Trigger.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Trigger/Configure Trigger.vi"/>
+				<Item Name="Configure Trigger Delay.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Trigger/Configure Trigger Delay.vi"/>
+				<Item Name="Configure Trigger Impedance.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Trigger/Configure Trigger Impedance.vi"/>
+				<Item Name="Query Trigger Impedance.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Trigger/Query Trigger Impedance.vi"/>
+				<Item Name="Configure Trigger Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Trigger/Configure Trigger Mode.vi"/>
+				<Item Name="Query Trigger Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Trigger/Query Trigger Mode.vi"/>
+				<Item Name="Configure Trigger Source.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Configure Trigger Source.vi"/>
+				<Item Name="Query Trigger Source.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Query Trigger Source.vi"/>
+				<Item Name="Query Trigger Delay.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Trigger/Query Trigger Delay.vi"/>
+				<Item Name="Query Trigger Out Polarity.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Trigger/Query Trigger Out Polarity.vi"/>
+				<Item Name="Trigger Source.ctl" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Trigger/Trigger Source.ctl"/>
+				<Item Name="Trigger Mode.ctl" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Trigger/Trigger Mode.ctl"/>
 			</Item>
 			<Item Name="Pulse" Type="Folder">
-				<Item Name="Configure Pulse Width.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Pulse/Configure Pulse Width.vi"/>
-				<Item Name="Query Pulse Width.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Pulse/Query Pulse Width.vi"/>
+				<Item Name="Configure Pulse Width.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Pulse/Configure Pulse Width.vi"/>
+				<Item Name="Query Pulse Width.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Pulse/Query Pulse Width.vi"/>
 				<Item Name="Configure pulse amplitude and polarisation.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Pulse/Configure pulse amplitude and polarisation.vi"/>
-				<Item Name="Configure Single Pulse By Amplitude.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Pulse/Configure Single Pulse By Amplitude.vi"/>
-				<Item Name="Polarity.ctl" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Pulse/Polarity.ctl"/>
-				<Item Name="Configure Polarity.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Pulse/Configure Polarity.vi"/>
-				<Item Name="Query Polarity.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Pulse/Query Polarity.vi"/>
-				<Item Name="Configure Offset.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Pulse/Configure Offset.vi"/>
-				<Item Name="Query Offset.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Pulse/Query Offset.vi"/>
-				<Item Name="Configure High Amplitude.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Pulse/Configure High Amplitude.vi"/>
-				<Item Name="Query High Amplitude.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Pulse/Query High Amplitude.vi"/>
-				<Item Name="Configure Low Amplitude.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Pulse/Configure Low Amplitude.vi"/>
-				<Item Name="Query Low Amplitude.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Pulse/Query Low Amplitude.vi"/>
-				<Item Name="Configure Amplitude.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Pulse/Configure Amplitude.vi"/>
-				<Item Name="Query Amplitude.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Pulse/Query Amplitude.vi"/>
-				<Item Name="Configure Pulse Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Configure Pulse Mode.vi"/>
-				<Item Name="Configure Pulse Delay.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Pulse/Configure Pulse Delay.vi"/>
-				<Item Name="Query Pulse Delay.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Pulse/Query Pulse Delay.vi"/>
-				<Item Name="Configure Initial Pulse Delay.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Pulse/Configure Initial Pulse Delay.vi"/>
-				<Item Name="Query Initial Pulse Delay.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Pulse/Query Initial Pulse Delay.vi"/>
-				<Item Name="Configure Period.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Pulse/Configure Period.vi"/>
-				<Item Name="Query Period.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Pulse/Query Period.vi"/>
-				<Item Name="Pulse Mode.ctl" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Pulse/Pulse Mode.ctl"/>
-				<Item Name="Configure Cycles Number.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Pulse/Configure Cycles Number.vi"/>
-				<Item Name="Query Cycles Number.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Pulse/Query Cycles Number.vi"/>
+				<Item Name="Configure Single Pulse By Amplitude.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Pulse/Configure Single Pulse By Amplitude.vi"/>
+				<Item Name="Polarity.ctl" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Pulse/Polarity.ctl"/>
+				<Item Name="Configure Polarity.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Pulse/Configure Polarity.vi"/>
+				<Item Name="Query Polarity.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Pulse/Query Polarity.vi"/>
+				<Item Name="Configure Offset.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Pulse/Configure Offset.vi"/>
+				<Item Name="Query Offset.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Pulse/Query Offset.vi"/>
+				<Item Name="Configure High Amplitude.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Pulse/Configure High Amplitude.vi"/>
+				<Item Name="Query High Amplitude.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Pulse/Query High Amplitude.vi"/>
+				<Item Name="Configure Low Amplitude.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Pulse/Configure Low Amplitude.vi"/>
+				<Item Name="Query Low Amplitude.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Pulse/Query Low Amplitude.vi"/>
+				<Item Name="Configure Amplitude.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Pulse/Configure Amplitude.vi"/>
+				<Item Name="Query Amplitude.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Pulse/Query Amplitude.vi"/>
+				<Item Name="Configure Pulse Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Configure Pulse Mode.vi"/>
+				<Item Name="Configure Pulse Delay.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Pulse/Configure Pulse Delay.vi"/>
+				<Item Name="Query Pulse Delay.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Pulse/Query Pulse Delay.vi"/>
+				<Item Name="Configure Initial Pulse Delay.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Pulse/Configure Initial Pulse Delay.vi"/>
+				<Item Name="Query Initial Pulse Delay.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Pulse/Query Initial Pulse Delay.vi"/>
+				<Item Name="Configure Period.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Pulse/Configure Period.vi"/>
+				<Item Name="Query Period.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Pulse/Query Period.vi"/>
+				<Item Name="Pulse Mode.ctl" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Pulse/Pulse Mode.ctl"/>
+				<Item Name="Configure Cycles Number.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Pulse/Configure Cycles Number.vi"/>
+				<Item Name="Query Cycles Number.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Pulse/Query Cycles Number.vi"/>
 			</Item>
-			<Item Name="Autosetup.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Autosetup.vi"/>
-			<Item Name="Configure Load Impedance.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Configure Load Impedance.vi"/>
-			<Item Name="Query Load Impedance.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Query Load Impedance.vi"/>
-			<Item Name="Configure Auto Load Compensation.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Configure Auto Load Compensation.vi"/>
-			<Item Name="Query Auto Load Compensation.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Query Auto Load Compensation.vi"/>
-			<Item Name="Query Pulse Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Configure/Query Pulse Mode.vi"/>
+			<Item Name="Autosetup.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Autosetup.vi"/>
+			<Item Name="Configure Load Impedance.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Configure Load Impedance.vi"/>
+			<Item Name="Query Load Impedance.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Query Load Impedance.vi"/>
+			<Item Name="Configure Auto Load Compensation.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Configure Auto Load Compensation.vi"/>
+			<Item Name="Query Auto Load Compensation.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Query Auto Load Compensation.vi"/>
+			<Item Name="Query Pulse Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Configure/Query Pulse Mode.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
-			<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Utility/Error Query.vi"/>
-			<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Utility/Reset.vi"/>
-			<Item Name="Self-Test.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Utility/Self-Test.vi"/>
-			<Item Name="Utility.mnu" Type="Document" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Utility/Utility.mnu"/>
+			<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Utility/Error Query.vi"/>
+			<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Utility/Reset.vi"/>
+			<Item Name="Self-Test.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Utility/Self-Test.vi"/>
 		</Item>
-		<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Close.vi"/>
-		<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/Pulse Rider PG-1000/Public/Initialize.vi"/>
+		<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Close.vi"/>
+		<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_PulseRiderPG1000/Public/Initialize.vi"/>
 	</Item>
 </Library>
